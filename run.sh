@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dataset directory
-dataset=agnews
+dataset=yelp
 
 # text file name; one document per line
 text_file=text.txt
@@ -10,7 +10,7 @@ text_file=text.txt
 sup_source=names
 
 # whether ground truth labels are available for evaluation; True or False
-with_evaluation=False
+with_evaluation=True
 
 # use GPU 
 export CUDA_VISIBLE_DEVICES=0
