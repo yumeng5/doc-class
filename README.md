@@ -15,7 +15,7 @@ Python 3.6 is strongly recommended; using older python versions might lead to pa
 
 * A text corpus to be classified. It needs to be named as ```text.txt``` where each line is one document.
 * Class names. You need to provide class names of each class in ```classes.txt``` where each line is one class name. (Note: You need to make sure all the class names appear in the corpus.) 
-* (Optional) Ground truth labels. You can choose to provide ground-truth labels of all the documents to evaluate the performance/tune parameters. The ground truth labels are for evaluation purpose only and will **not** be used by the algorithm during training. You need to provide ground truth labels as class label ids in ```truth.txt```. (Note: class label ids start from ```0```, and the order should be consistent with the class name order in ```classes.txt```.)
+* (Optional) Ground truth labels. You can choose to provide ground-truth labels of all the documents to evaluate the performance/tune parameters. The ground truth labels are for evaluation purpose only and will **not** be used by the algorithm during training. Ground truth labels should be provided as class label ids in ```truth.txt```. (Note: class label ids start from ```0```, and the order should be consistent with the class name order in ```classes.txt```.)
 
 Examples are given under ```./agnews/``` and ```./yelp/```.
 
