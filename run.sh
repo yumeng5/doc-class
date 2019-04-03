@@ -13,7 +13,7 @@ sup_source=names
 with_evaluation=False
 
 # use GPU 
-export CUDA_VISIBLE_DEVICES=7
+export CUDA_VISIBLE_DEVICES=0
 
 green=`tput setaf 2`
 reset=`tput sgr0`
